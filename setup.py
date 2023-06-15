@@ -11,7 +11,7 @@ with open(os.path.join(this_directory, "requirements.txt")) as f:
 
 setup(
     name="graphql_adapter",
-    version="0.0.1",
+    version="0.0.2",
     description="GraphQL Adapter for Python.",
     long_description=long_description,
     long_description_content_type="text/markdown",
