@@ -2,6 +2,12 @@
 
 The `graphql_adapter` module is a Python package that simplifies interactions with GraphQL servers. It abstracts away some of the pain points of using Python with GraphQL by providing a streamlined, asynchronous interface for sending GraphQL queries and mutations.
 
+## Installation
+
+```
+pip install graphql-adapter
+```
+
 ## Usage
 
 The `graphql_adapter` module exports a single async function `graphql_request`.
