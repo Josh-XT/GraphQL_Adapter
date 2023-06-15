@@ -32,7 +32,8 @@ variables = {"key1": "value1", "key2": "value2"}
 response = await graphql_request(
     query=query,
     variables=variables,
-    graphql_server="http://localhost:4000/graphql"
+    graphql_server="http://localhost:4000/graphql",
+    query_path="./gql"
 )
 
 print(response)
